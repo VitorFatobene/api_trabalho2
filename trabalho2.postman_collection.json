@@ -1,0 +1,60 @@
+{
+  "info": {
+    "_postman_id": "68339619-dd5c-4831-b850-29f79c1e8cbf",
+    "name": "trabalho2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52849502",
+    "_collection_link": "https://go.postman.co/collection/52849502-68339619-dd5c-4831-b850-29f79c1e8cbf?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "post",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":11,\n    \"titulo\":\"tropa de elite\",\n    \"genero\":\"ação\",\n    \"ano\": 2012,\n    \"nota\": 10\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
